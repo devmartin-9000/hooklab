@@ -5,6 +5,7 @@
 **Hook Lab** is a creative playground for media buyers and marketers to **visualize ad campaigns** across platforms and devices — before they ever launch.
 
 ---
+![thumbnail](public/thumbnail.png)
 
 ### 💡 What It Does
 Hook Lab lets you preview and refine ad hooks, headlines, and creatives inside **realistic mock social feeds**.  
