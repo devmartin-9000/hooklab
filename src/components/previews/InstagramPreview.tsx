@@ -12,7 +12,7 @@ export const InstagramPreview = ({ hook, image }: InstagramPreviewProps) => {
 			<div className="p-3 flex items-center gap-3">
 				<div className="w-8 h-8 rounded-full bg-gradient-to-tr from-[#F58529] via-[#DD2A7B] to-[#8134AF]" />
 				<div className="flex-1">
-					<div className="font-semibold text-primary-foreground/90 text-sm">
+					<div className="font-semibold text-muted-foreground text-sm">
 						yourbrand
 					</div>
 					<div className="text-xs text-muted-foreground">Sponsored</div>
@@ -31,7 +31,7 @@ export const InstagramPreview = ({ hook, image }: InstagramPreviewProps) => {
 				</div>
 			) : (
 				<div className="aspect-square bg-muted flex items-center justify-center">
-					<span className="text-primary-foreground/90 text-sm">
+					<span className="text-muted-foreground text-sm">
 						Your creative will appear here
 					</span>
 				</div>
@@ -49,16 +49,16 @@ export const InstagramPreview = ({ hook, image }: InstagramPreviewProps) => {
 				</div>
 
 				{/* Likes */}
-				<div className="text-primary-foreground/90 text-sm font-semibold">
+				<div className="text-muted-foreground text-sm font-semibold">
 					1,234 likes
 				</div>
 
 				{/* Caption */}
 				<div className="text-sm">
-					<span className="text-primary-foreground/90 font-semibold">
+					<span className="text-card-foreground font-bold leading-relaxed">
 						yourbrand:
 					</span>{" "}
-					<span className="text-foreground/90">
+					<span className="text-muted-foreground">
 						{hook || "Your attention-grabbing hook will appear here..."}
 					</span>
 				</div>

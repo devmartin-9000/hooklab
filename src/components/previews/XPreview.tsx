@@ -14,7 +14,7 @@ export const XPreview = ({ hook, image }: XPreviewProps) => {
 					<div className="w-10 h-10 rounded-full bg-gradient-brand flex-shrink-0" />
 					<div className="flex-1 min-w-0">
 						<div className="flex items-center gap-2">
-							<span className="text-primary-foreground/90 font-bold text-sm">
+							<span className="text-muted-foreground font-bold text-sm">
 								Your Brand
 							</span>
 							<span className="text-muted-foreground text-sm">@yourbrand</span>
@@ -31,7 +31,7 @@ export const XPreview = ({ hook, image }: XPreviewProps) => {
 
 						{/* Hook Text */}
 						<div className="mt-3">
-							<p className="text-primary-foreground/90 text-sm leading-relaxed whitespace-pre-wrap">
+							<p className="text-muted-foreground text-sm leading-relaxed whitespace-pre-wrap">
 								{hook || "Your hook will appear here..."}
 							</p>
 						</div>

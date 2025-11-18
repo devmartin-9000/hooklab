@@ -131,7 +131,7 @@ export const HookGenerator = ({
 	return (
 		<div className="space-y-4">
 			<div className="flex items-center justify-between">
-				<h2 className="text-lg font-semibold text-primary-foreground/90 flex items-center gap-2">
+				<h2 className="text-lg font-semibold text-muted-foreground flex items-center gap-2">
 					<span className="w-2 h-2 rounded-full bg-gradient-brand"></span>
 					Hook Generator
 				</h2>
@@ -140,7 +140,7 @@ export const HookGenerator = ({
 					variant="outline"
 					onClick={handleAISpark}
 					disabled={isGenerating}
-					className="bg-gradient-brand-subtle border-primary/30 hover:bg-gradient-brand text-primary-foreground transition-all disabled:opacity-50"
+					className="bg-gradient-brand-subtle border-primary/30 hover:bg-gradient-brand text-muted-foreground transition-all disabled:opacity-50"
 				>
 					<Sparkles className="w-3 h-3 mr-1" />
 					{isGenerating ? "Generating..." : "AI Spark"}
@@ -155,7 +155,7 @@ export const HookGenerator = ({
 					value={hook}
 					onChange={(e) => onHookChange(e.target.value)}
 					placeholder="Enter your attention-grabbing hook here..."
-					className="min-h-[100px] resize-none bg-background/50 border-border text-primary-foreground/90 focus:border-primary transition-colors"
+					className="min-h-[100px] resize-none bg-background/50 border-border text-muted-foreground focus:border-primary transition-colors"
 				/>
 			</div>
 

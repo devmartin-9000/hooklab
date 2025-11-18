@@ -35,7 +35,7 @@ export const PinterestPreview = ({ hook, image }: PinterestPreviewProps) => {
 			{/* Content */}
 			<div className="p-4">
 				{/* Hook Text */}
-				<p className="text-primary-foreground/90 text-sm font-semibold leading-snug mb-3">
+				<p className="text-muted-foreground text-sm font-semibold leading-snug mb-3">
 					{hook || "Your Pin description will appear here..."}
 				</p>
 
@@ -43,7 +43,7 @@ export const PinterestPreview = ({ hook, image }: PinterestPreviewProps) => {
 				<div className="flex items-center gap-2">
 					<div className="w-8 h-8 rounded-full bg-gradient-brand" />
 					<div>
-						<div className="text-primary-foreground/90 text-xs font-semibold">
+						<div className="text-muted-foreground text-xs font-semibold">
 							Your Brand
 						</div>
 						<div className="text-xs text-muted-foreground">Promoted</div>

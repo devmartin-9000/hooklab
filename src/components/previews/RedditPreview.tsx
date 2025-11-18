@@ -28,7 +28,7 @@ export const RedditPreview = ({ hook, image }: RedditPreviewProps) => {
 					<div className="p-3 flex items-center gap-2">
 						<div className="w-6 h-6 rounded-full bg-gradient-brand" />
 						<div className="flex items-center gap-2 text-xs">
-							<span className="text-primary-foreground/90 font-bold">
+							<span className="text-muted-foreground font-bold">
 								r/YourSubreddit
 							</span>
 							<span className="text-muted-foreground">
@@ -46,7 +46,7 @@ export const RedditPreview = ({ hook, image }: RedditPreviewProps) => {
 
 					{/* Hook Text */}
 					<div className="px-3 pb-2">
-						<h3 className="text-primary-foreground/90 text-sm font-semibold mb-2">
+						<h3 className="text-muted-foreground text-sm font-semibold mb-2">
 							{hook || "Your Reddit post title will appear here..."}
 						</h3>
 					</div>

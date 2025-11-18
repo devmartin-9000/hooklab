@@ -12,7 +12,7 @@ export const LinkedInPreview = ({ hook, image }: LinkedInPreviewProps) => {
 			<div className="p-4 flex items-start gap-3">
 				<div className="w-12 h-12 rounded-full bg-gradient-brand flex-shrink-0" />
 				<div className="flex-1 min-w-0">
-					<div className="text-primary-foreground/90 font-semibold text-sm">
+					<div className="text-muted-foreground font-semibold text-sm">
 						Your Company
 					</div>
 					<div className="text-xs text-muted-foreground">1M followers</div>
@@ -25,7 +25,7 @@ export const LinkedInPreview = ({ hook, image }: LinkedInPreviewProps) => {
 
 			{/* Hook Text */}
 			<div className="px-4 pb-3">
-				<p className="text-primary-foreground/90 text-sm leading-relaxed whitespace-pre-wrap">
+				<p className="text-muted-foreground text-sm leading-relaxed whitespace-pre-wrap">
 					{hook || "Your professional hook will appear here..."}
 				</p>
 			</div>
